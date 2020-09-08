@@ -5,6 +5,7 @@ from django.core.files.base import ContentFile
 from django.core.exceptions import ValidationError, ObjectDoesNotExist, FieldDoesNotExist
 from django.utils.safestring import mark_safe
 from django.utils.functional import cached_property
+from django.db import models
 from django.db.models import Avg, Min, Max, Count, Sum, F
 from report_builder.unique_slugify import unique_slugify
 from .utils import (
