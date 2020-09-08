@@ -6,7 +6,6 @@ from django.core.exceptions import ValidationError, ObjectDoesNotExist, FieldDoe
 from django.utils.safestring import mark_safe
 from django.utils.functional import cached_property
 from django.db.models import Avg, Min, Max, Count, Sum, F
-from django.db.models.fields import FieldDoesNotExist
 from report_builder.unique_slugify import unique_slugify
 from .utils import (
     get_model_from_path_string, sort_data, increment_total, formatter)
