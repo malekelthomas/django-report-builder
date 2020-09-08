@@ -2,10 +2,9 @@ from django import forms
 from django.contrib.contenttypes.models import ContentType
 from django.conf import settings
 from django.core.files.base import ContentFile
-from django.core.exceptions import ValidationError, ObjectDoesNotExist
+from django.core.exceptions import ValidationError, ObjectDoesNotExist, FieldDoesNotExist
 from django.utils.safestring import mark_safe
 from django.utils.functional import cached_property
-from django.db import models
 from django.db.models import Avg, Min, Max, Count, Sum, F
 from django.db.models.fields import FieldDoesNotExist
 from report_builder.unique_slugify import unique_slugify
