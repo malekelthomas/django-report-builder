@@ -8,7 +8,7 @@ setup(
     description=("Query and Report builder for Django ORM"),
     license="BSD",
     keywords="django report",
-    url="https://gitlab.com/burke-software/django-report-builder",
+    url="https://github.com/malekelthomas/django-report-builder",
     packages=find_packages(exclude=["report_builder_demo", "report_builder_demo.*"]),
     include_package_data=True,
     classifiers=[
